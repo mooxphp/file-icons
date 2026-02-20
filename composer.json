@@ -15,10 +15,10 @@
     ],
     "require": {
         "blade-ui-kit/blade-icons": "^1.6",
-        "moox/core": "5.0.1"
+        "moox/core": "5.0.11"
     },
     "require-dev": {
-        "moox/devtools": "5.0.1"
+        "moox/devtools": "5.0.11"
     },
     "autoload": {
         "psr-4": {
@@ -30,6 +30,9 @@
             "providers": [
                 "Moox\\FileIcons\\FileIconsServiceProvider"
             ]
+        },
+        "moox": {
+            "stability": "stable"
         }
     },
     "config": {
